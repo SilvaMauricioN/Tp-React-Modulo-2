@@ -1,0 +1,39 @@
+.Contenedor{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.Formulario{
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 30%;
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+p{
+  color: #666;
+  font-size: 15px;
+  margin-bottom: 20px;    
+}
+
+.GrupoEntrada {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 1450px) {
+  .GrupoEntrada {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

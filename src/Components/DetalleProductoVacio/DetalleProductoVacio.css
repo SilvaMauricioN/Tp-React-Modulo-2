@@ -1,0 +1,14 @@
+.detalle-vacio {
+    text-align: center;
+    margin-top: 50px;
+}
+  
+.detalle-vacio-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    background: #0077cc;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+}

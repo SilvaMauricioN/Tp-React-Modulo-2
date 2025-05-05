@@ -1,0 +1,13 @@
+.Contenedor_productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;     
+    background-color: #f8f9fa;
+    gap: 20px;                        
+    padding: 20px;                    
+    box-sizing: border-box;
+}
+
+.Titulo_lista {
+    padding: 20px
+}

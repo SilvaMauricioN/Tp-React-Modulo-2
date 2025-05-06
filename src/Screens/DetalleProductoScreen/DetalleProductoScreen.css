@@ -1,8 +1,15 @@
 .Contenedor{ 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     height: 100vh;
     background-color: #f8f9fa;
 }
+
+.Titulo-detalle {
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }

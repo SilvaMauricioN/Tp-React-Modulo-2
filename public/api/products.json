@@ -1,119 +1,197 @@
 [
-    {
-      "id": 1,
-      "nombre": "Smart tv 42\"",
-      "precioOriginal": 419999,
-      "precioFinal": 294999,
-      "descuento": 30,
-      "cantidad": 15,
-      "img": "https://http2.mlstatic.com/D_NQ_NP_829761-MLU72675779829_112023-O.webp"
-    },
-    {
-      "id": 2,
-      "nombre": "Smart tv 45\"",
-      "precioOriginal": 519999,
-      "precioFinal": 394999,
-      "descuento": 20,
-      "cantidad": 15,
-      "img": "https://http2.mlstatic.com/D_NQ_NP_2X_638022-MCO32583577584_102019-F.webp"
-    },
-    {
-      "id": 3,
-      "nombre": "Smart tv 32\"",
-      "precioOriginal": 319999,
-      "precioFinal": 194999,
-      "descuento": 40,
-      "cantidad": 15,
-      "img": "https://http2.mlstatic.com/D_NQ_NP_2X_866465-MLU77437503426_072024-F.webp"
-    },
-    {
-      "id": 4,
-      "nombre": "Notebook Lenovo IdeaPad 15.6\" Intel i5",
-      "precioOriginal": 649999,
-      "precioFinal": 519999,
-      "descuento": 20,
-      "cantidad": 10,
-      "img": "https://www.todonotebook.com.ar/wp-content/uploads/2021/11/LENOVO-Ideapad-3-15IIL05-4.jpg"
-    },
-    {
-      "id": 5,
-      "nombre": "Smartphone Samsung Galaxy S23 256GB",
-      "precioOriginal": 899999,
-      "precioFinal": 719999,
-      "descuento": 20,
-      "cantidad": 25,
-      "img": "https://fonezone.me/cdn/shop/files/galaxy-s22-5g-sm-s901elvdins-samsung-original-imaghrbah5xz5buu_c27ec264-268b-4b81-9248-d9c3620fa083.jpg?v=1718017236&width=847"
-    },
-    {
-      "id": 6,
-      "nombre": "Tablet Xiaomi Pad 6 11\" 128GB",
-      "precioOriginal": 399999,
-      "precioFinal": 319999,
-      "descuento": 20,
-      "cantidad": 18,
-      "img": "https://www.discoazul.com/uploads/media/images/med-t6.jpg"
-    },
-    {
-      "id": 7,
-      "nombre": "Auriculares Bluetooth JBL Tune 510BT",
-      "precioOriginal": 49999,
-      "precioFinal": 37999,
-      "descuento": 24,
-      "cantidad": 50,
-      "img": "https://www.discoazul.com/uploads/media/images/auriculares-inalambricos-jbl-tune-510bt-bluetooth-blancos-1.jpg"
-    },
-    {
-      "id": 8,
-      "nombre": "Monitor LG UltraGear 27\" Full HD 144Hz",
-      "precioOriginal": 329999,
-      "precioFinal": 269999,
-      "descuento": 18,
-      "cantidad": 8,
-      "img": "https://www.discoazul.com/uploads/media/images/monitor-gaming-lg-27gn600-b-27-full-hd-negro-11.jpg"
-    },
-    {
-      "id": 9,
-      "nombre": "Teclado mecánico Redragon Kumara K552 RGB",
-      "precioOriginal": 64999,
-      "precioFinal": 51999,
-      "descuento": 20,
-      "cantidad": 40,
-      "img": "https://compucordoba.com.ar/img/Public/1078/38428-producto-kumara-red.JPG"
-    },
-    {
-      "id": 10,
-      "nombre": "Mouse Logitech G502 Hero Gaming",
-      "precioOriginal": 79999,
-      "precioFinal": 63999,
-      "descuento": 20,
-      "cantidad": 35,
-      "img": "https://i0.wp.com/hardcorecomputacion.com.ar/wp-content/uploads/2018/10/mouse-logitech-gaming-g502-proteus-hero-11-teclas-16000dpi-D_NQ_NP_717910-MLA28296519816_102018-F.jpg?fit=600%2C600&ssl=1"
-    },
-    {
-      "id": 11,
-      "nombre": "Consola PlayStation 5 825GB",
-      "precioOriginal": 1249999,
-      "precioFinal": 1099999,
-      "descuento": 12,
-      "cantidad": 12,
-      "img": "https://http2.mlstatic.com/D_NQ_NP_2X_668835-MLU75793607777_042024-F.webp"
-    },
-    {
-      "id": 12,
-      "nombre": "Smartwatch Amazfit GTR 3 Pro",
-      "precioOriginal": 149999,
-      "precioFinal": 119999,
-      "descuento": 20,
-      "cantidad": 20,
-      "img": "https://http2.mlstatic.com/D_NQ_NP_2X_861231-MLU72579818640_112023-F.webp"
-    },
-    {
-      "id": 13,
-      "nombre": "Router Wi-Fi 6 TP-Link AX1800",
-      "precioOriginal": 89999,
-      "precioFinal": 69999,
-      "descuento": 22,
-      "cantidad": 30,
-      "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/GMy4dJFB0Wx7Gg6FR0QE/imagen"
-    }
-  ]
+  {
+    "id": 1,
+    "nombre": "Smart tv 42\"",
+    "precioOriginal": 419999,
+    "precioFinal": 294999,
+    "descuento": 30,
+    "cantidad": 15,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_829761-MLU72675779829_112023-O.webp",
+    "caracteristicas": [
+      "Resolución Full HD",
+      "Tecnología LED",
+      "3 entradas HDMI",
+      "Compatible con Smart Hub"
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Smart tv 45\"",
+    "precioOriginal": 519999,
+    "precioFinal": 394999,
+    "descuento": 20,
+    "cantidad": 15,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_2X_638022-MCO32583577584_102019-F.webp",
+    "caracteristicas": [
+      "Resolución 4K UHD",
+      "Panel IPS",
+      "Sistema operativo Tizen",
+      "Soporte para HDR10"
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Smart tv 32\"",
+    "precioOriginal": 319999,
+    "precioFinal": 194999,
+    "descuento": 40,
+    "cantidad": 15,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_2X_866465-MLU77437503426_072024-F.webp",
+    "caracteristicas": [
+      "Resolución HD",
+      "2 puertos HDMI",
+      "Control por voz",
+      "Wi-Fi integrado"
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Notebook Lenovo IdeaPad 15.6\" Intel i5",
+    "precioOriginal": 649999,
+    "precioFinal": 519999,
+    "descuento": 20,
+    "cantidad": 10,
+    "img": "https://www.todonotebook.com.ar/wp-content/uploads/2021/11/LENOVO-Ideapad-3-15IIL05-4.jpg",
+    "caracteristicas": [
+      "Procesador Intel Core i5",
+      "Pantalla 15.6” Full HD",
+      "256GB SSD",
+      "8GB RAM"
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Smartphone Samsung Galaxy S23 256GB",
+    "precioOriginal": 899999,
+    "precioFinal": 719999,
+    "descuento": 20,
+    "cantidad": 25,
+    "img": "https://fonezone.me/cdn/shop/files/galaxy-s22-5g-sm-s901elvdins-samsung-original-imaghrbah5xz5buu_c27ec264-268b-4b81-9248-d9c3620fa083.jpg?v=1718017236&width=847",
+    "caracteristicas": [
+      "Pantalla AMOLED 6.1\"",
+      "Cámara triple 50MP",
+      "Batería de 3900 mAh",
+      "Carga rápida 25W"
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "Tablet Xiaomi Pad 6 11\" 128GB",
+    "precioOriginal": 399999,
+    "precioFinal": 319999,
+    "descuento": 20,
+    "cantidad": 18,
+    "img": "https://www.discoazul.com/uploads/media/images/med-t6.jpg",
+    "caracteristicas": [
+      "Pantalla 2.8K de 11”",
+      "Procesador Snapdragon 870",
+      "6GB RAM y 128GB de almacenamiento",
+      "Compatible con lápiz óptico"
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "Auriculares Bluetooth JBL Tune 510BT",
+    "precioOriginal": 49999,
+    "precioFinal": 37999,
+    "descuento": 24,
+    "cantidad": 50,
+    "img": "https://www.discoazul.com/uploads/media/images/auriculares-inalambricos-jbl-tune-510bt-bluetooth-blancos-1.jpg",
+    "caracteristicas": [
+      "Tecnología Bluetooth 5.0",
+      "Hasta 40 horas de batería",
+      "Carga rápida",
+      "Diseño plegable y liviano"
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "Monitor LG UltraGear 27\" Full HD 144Hz",
+    "precioOriginal": 329999,
+    "precioFinal": 269999,
+    "descuento": 18,
+    "cantidad": 8,
+    "img": "https://www.discoazul.com/uploads/media/images/monitor-gaming-lg-27gn600-b-27-full-hd-negro-11.jpg",
+    "caracteristicas": [
+      "Frecuencia de actualización 144Hz",
+      "Tiempo de respuesta 1ms",
+      "Tecnología AMD FreeSync",
+      "Conectividad HDMI y DisplayPort"
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "Teclado mecánico Redragon Kumara K552 RGB",
+    "precioOriginal": 64999,
+    "precioFinal": 51999,
+    "descuento": 20,
+    "cantidad": 40,
+    "img": "https://compucordoba.com.ar/img/Public/1078/38428-producto-kumara-red.JPG",
+    "caracteristicas": [
+      "Switches mecánicos Outemu Blue",
+      "Retroiluminación RGB",
+      "Diseño compacto sin pad numérico",
+      "Construcción metálica"
+    ]
+  },
+  {
+    "id": 10,
+    "nombre": "Mouse Logitech G502 Hero Gaming",
+    "precioOriginal": 79999,
+    "precioFinal": 63999,
+    "descuento": 20,
+    "cantidad": 35,
+    "img": "https://i0.wp.com/hardcorecomputacion.com.ar/wp-content/uploads/2018/10/mouse-logitech-gaming-g502-proteus-hero-11-teclas-16000dpi-D_NQ_NP_717910-MLA28296519816_102018-F.jpg?fit=600%2C600&ssl=1",
+    "caracteristicas": [
+      "Sensor HERO 25K",
+      "11 botones programables",
+      "Pesas ajustables",
+      "Cable trenzado resistente"
+    ]
+  },
+  {
+    "id": 11,
+    "nombre": "Consola PlayStation 5 825GB",
+    "precioOriginal": 1249999,
+    "precioFinal": 1099999,
+    "descuento": 12,
+    "cantidad": 12,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_2X_668835-MLU75793607777_042024-F.webp",
+    "caracteristicas": [
+      "Disco SSD de 825GB",
+      "Gráficos 4K hasta 120fps",
+      "Retrocompatible con PS4",
+      "Control DualSense con respuesta háptica"
+    ]
+  },
+  {
+    "id": 12,
+    "nombre": "Smartwatch Amazfit GTR 3 Pro",
+    "precioOriginal": 149999,
+    "precioFinal": 119999,
+    "descuento": 20,
+    "cantidad": 20,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_2X_861231-MLU72579818640_112023-F.webp",
+    "caracteristicas": [
+      "Pantalla AMOLED 1.45\"",
+      "Medición de oxígeno en sangre",
+      "GPS integrado",
+      "Batería hasta 12 días"
+    ]
+  },
+  {
+    "id": 13,
+    "nombre": "Router Wi-Fi 6 TP-Link AX1800",
+    "precioOriginal": 89999,
+    "precioFinal": 69999,
+    "descuento": 22,
+    "cantidad": 30,
+    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/GMy4dJFB0Wx7Gg6FR0QE/imagen",
+    "caracteristicas": [
+      "Wi-Fi 6 de alta velocidad",
+      "Doble banda simultánea",
+      "4 antenas externas",
+      "Control parental y QoS"
+    ]
+  }
+]

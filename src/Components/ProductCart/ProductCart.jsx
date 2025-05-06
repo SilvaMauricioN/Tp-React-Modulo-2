@@ -23,11 +23,13 @@ function ProductCart({ id,nombre, img, precioOriginal, precioFinal, descuento, c
 
       <p className="cantidad">Cantidad disponible: {cantidad}</p>
 
-      <Link to={`/detalle/${id}`} className="view-details-button">Ver Detalles</Link>
-
-      <button onClick={handleClickComprar} className="comprar">
-        Comprar
-      </button>
+      <div className='Botones'>
+        <Link to={`/detalle/${id}`} className="ver-detalles">Ver Detalles</Link>
+        <button onClick={handleClickComprar} className="comprar">
+          Comprar
+        </button>
+      </div>
+     
 
       {comprado && <p className="mensaje-comprado">Gracias por su compra</p>}
     </div>

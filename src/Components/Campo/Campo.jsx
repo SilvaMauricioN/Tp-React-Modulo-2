@@ -5,7 +5,7 @@ const Campo = ({htmlfor,id, tipo, texto, placeholder }) => {
   return (
     <div className="CampoEntrada">
       <label className=""
-        htmlfor={htmlfor}
+        htmlFor={htmlfor}
         >{texto}
       </label>
 

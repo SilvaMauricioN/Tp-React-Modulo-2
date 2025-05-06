@@ -37,7 +37,7 @@ const DetalleProductoScreen = () => {
   if (!product) return null
 
   return (
-    <div className='Contenedor'>
+    <div className='Contenedor-detalle'>
         <h1 className='Titulo-detalle'>Detalle de producto </h1>
         <div>
             <ProductoCardDetalle {...product}></ProductoCardDetalle>

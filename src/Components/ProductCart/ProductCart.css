@@ -59,11 +59,30 @@
     color: #555;
     margin-bottom: 0.5rem;
 }
+
+.Botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
   
 .comprar {
     background-color: #28a745;
     color: white;
     padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.ver-detalles{
+    background-color: #339af0;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;

@@ -6,7 +6,7 @@ const CampoPassword = ({ htmlfor,id,texto,placeholder }) => {
   
 	return (
 	<div className="ContenedorPassword">
-		<label htmlfor={htmlfor} className="TituloCampo">{texto}</label>
+		<label htmlFor={htmlfor} className="TituloCampo">{texto}</label>
 		<input id={id} type="password" placeholder={placeholder} className="EntradaPassword"/>
 		<button type="button" className="BotonOjo">
 			<Iconos.EYE className="Icono"/>
